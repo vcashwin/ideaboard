@@ -24,7 +24,7 @@ const cardStatusColor = {
  */
 export function Card({ title, description, status }: CardProps) {
   return (
-    <div className="card flex flex-col p-6 space-y-4 rounded-md text-xs">
+    <div className="card hover:card-hover flex flex-col p-6 space-y-4 rounded-md text-xs">
       <h3 className="font-bold">{title}</h3>
       <p>{description}</p>
       <p

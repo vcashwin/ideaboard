@@ -7,4 +7,15 @@
     box-shadow: 10px 10px 28px #bebebe, -10px -10px 28px #ffffff;
     background-color: #e0e0e0;
   }
+
+  .card-hover {
+    box-shadow: inset 6px 6px 28px #bebebe, inset -10px -10px 28px #ffffff;
+  }
+}
+
+@layer base {
+  body {
+    background-color: #e0e0e0;
+    height: 100%;
+  }
 }
