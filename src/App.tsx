@@ -41,7 +41,7 @@ const completedCards = [
 
 function App() {
   return (
-    <div className="flex flex-col lg:flex-row p-6 space-y-4 lg:space-x-4 lg:space-y-0 ">
+    <div className="flex flex-col lg:flex-row p-6 space-y-4 lg:space-x-4 lg:space-y-0 bg-[#e0e0e0] lg:min-h-screen">
       <CardContainer title="To-Do" cards={todoCards} />
       <CardContainer title="In Progress" cards={inProgressCards} />
       <CardContainer title="Completed" cards={completedCards} />

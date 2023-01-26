@@ -24,11 +24,11 @@ const cardStatusColor = {
  */
 export function Card({ title, description, status }: CardProps) {
   return (
-    <div className="flex flex-col p-6 space-y-4 border rounded-md text-sm">
+    <div className="card flex flex-col p-6 space-y-4 rounded-md text-xs">
       <h3 className="font-bold">{title}</h3>
       <p>{description}</p>
       <p
-        className={`text-white p-2 px-4 rounded-full font-bold text-xs w-fit ${cardStatusColor[status]}`}
+        className={`text-white p-1 px-2 rounded-full font-bold text-[8px] w-fit ${cardStatusColor[status]}`}
       >
         {status}
       </p>
