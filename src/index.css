@@ -6,18 +6,14 @@
   .card {
     box-shadow: 10px 10px 28px #bebebe, -10px -10px 28px #ffffff;
     background-color: #e0e0e0;
-  }
-
-  .card:hover {
-    box-shadow: inset 10px 10px 28px #bebebe, inset -10px -10px 28px #ffffff;
+    border-color: #e0e0e0;
+    border-width: 2px;
   }
 
   .card-dark {
     box-shadow: 10px 10px 28px #131313, -10px -10px 28px #2f2f2f;
     background-color: #212121;
-  }
-
-  .card-dark:hover {
-    box-shadow: inset 10px 10px 28px #131313, inset -10px -10px 28px #2f2f2f;
+    border-color: #212121;
+    border-width: 2px;
   }
 }
