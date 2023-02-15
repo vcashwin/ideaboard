@@ -64,6 +64,11 @@ function DarkModeButton() {
 
 function App() {
   const { darkMode } = useDarkMode();
+
+  React.useEffect(() => {
+    // Fetch cards from firebase-firestore db
+  }, []);
+
   return (
     <div className="flex flex-col p-6 space-y-4 items-center dark:bg-[#212121] dark:text-white relative">
       <img
@@ -75,7 +80,6 @@ function App() {
         <DarkModeButton />
       </div>
       <div className="flex flex-col lg:flex-row space-y-4 lg:space-x-4 lg:space-y-0">
-        {/* <Login /> */}
         <CardContainer title="To-Do" cards={todoCards} />
         <CardContainer title="In Progress" cards={inProgressCards} />
         <CardContainer title="Completed" cards={completedCards} />
